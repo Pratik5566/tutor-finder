@@ -1,0 +1,49 @@
+.home {
+  display: flex;
+  /* Adjust the height as needed */
+}
+
+/* Styles for the sidebar */
+
+/* Styles for the main content area */
+.homeContainer {
+  flex: 6;
+
+}
+
+.widgets {
+
+  display: flex;
+
+  padding: 20px;
+  gap: 20px;
+}
+
+.home.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark mode styles */
+.home.dark {
+  background-color: #333333;
+  color: #ffffff;
+  display: flex;
+}
+
+/* Update styles for elements within the Home component */
+.home.dark .homeContainer {
+  /* Apply dark mode styles to homeContainer */
+  background-color: #222222;
+  color: #ffffff;
+  flex: 6;
+}
+
+.home.dark .widgets {
+  /* Apply dark mode styles to widgets */
+
+  display: flex;
+
+  padding: 20px;
+  gap: 20px;
+}

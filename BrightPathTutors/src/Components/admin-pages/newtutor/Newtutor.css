@@ -1,0 +1,9 @@
+.list {
+    display: flex;
+  }
+  
+  /* Adjust the width of the main content area */
+  .listContainer {
+    flex: 6;
+   /* Add padding for spacing */
+  }

@@ -1,0 +1,83 @@
+.feedback-feedback-form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.feedback-rating-container {
+  margin-bottom: 15px;
+}
+
+.feedback-star {
+  font-size: 24px;
+  cursor: pointer;
+  color: #ccc;
+  transition: color 0.3s;
+}
+
+.feedback-filled-star {
+  font-size: 24px;
+  cursor: pointer;
+  color: orange;
+  transition: color 0.3s;
+}
+
+.feedback-textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.feedback-submit-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.feedback-submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.feedback-thanks-card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.feedback-thanks-card h2 {
+  margin-bottom: 10px;
+}
+
+.feedback-thanks-card button {
+  margin-top: 10px;
+}
+
+.feedback-feedbacks-list {
+  margin-top: 20px;
+}
+
+.feedback-feedback-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.feedback-feedback-item p {
+  margin: 5px 0;
+}
+
+.feedback-feedback-item button {
+  margin-top: 5px;
+}

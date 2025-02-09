@@ -1,0 +1,26 @@
+.lowerContainer{
+    display: flex;
+   /* justify-content: center; */
+    flex-direction: column;
+    
+}
+.lowerContainer2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 10%;
+    
+}
+.lowerContainer3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.container3-h3{
+    margin:0px 0px 7px 0px;
+}
+p{
+    margin:0px;
+   
+}

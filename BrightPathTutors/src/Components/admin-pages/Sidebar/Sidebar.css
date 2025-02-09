@@ -1,0 +1,140 @@
+
+
+/* Light mode styles */
+.sidebar.light {
+    background-color: #ffffff;
+    color: #000000;
+    flex:1.5;
+    border-right:0.5px solid lightgray ;
+    min-height: 100vh;
+  }
+  
+  /* Dark mode styles */
+  .sidebar.dark {
+    background-color: #333333;
+    color: #ffffff;
+    flex:1.5;
+    border-right:0.5px solid lightgray ;
+    min-height: 100vh;
+  }
+.sidebar .top{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+
+}
+.sidebar.dark .top{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+
+}
+
+
+.sidebar hr{
+    height: 0;
+    border: 0.5px solid lightgray;
+}
+.sidebar.dark hr{
+    height: 0;
+    border: 0.5px solid lightgray;
+}
+
+.sidebar .center{
+    padding-left: 10px;
+
+}
+.sidebar.dark .center{
+    padding-left: 10px;
+
+}
+
+.sidebar .center ul{
+    
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    
+
+}
+.sidebar.dark .center ul{
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+.sidebar .center ul li{
+    display: flex;
+    align-items: center;
+    padding:5px ;
+    cursor: pointer;
+    height: 40px;
+    
+   
+}
+.sidebar.dark .center ul li{
+    display: flex;
+    align-items: center;
+    padding:5px ;
+    cursor: pointer;
+    height: 40px;
+    
+   
+}
+ul li:hover {
+    background-color: lightgrey;
+}
+
+.sidebar.dark ul li:hover {
+    background-color:#1B0140;
+}
+ 
+
+.sidebar .center ul li .icon{
+    font-size: 20px;
+    color: rgb(40, 50, 81);
+    
+}
+.sidebar.dark .center ul li .icon{
+    font-size: 20px;
+    color: white;
+}
+.sidebar .center ul li span{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(40, 50, 81);
+    margin-left: 10px;
+
+}
+.sidebar.dark .center ul li span{
+    font-size: 20px;
+    font-weight: 600;
+    color:white;
+    margin-left: 10px;
+
+}
+
+
+.sidebar .top .logo{
+    font-size: 25px;
+    font-weight: bold;
+    color:purple;
+    
+
+}
+.sidebar.dark .top .logo{
+    font-size: 25px;
+    font-weight: bold;
+    color:wheat;
+    
+
+}
+

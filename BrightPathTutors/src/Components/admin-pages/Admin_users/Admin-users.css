@@ -1,0 +1,167 @@
+/**
+.list{
+    display: flex;
+ 
+}
+.list .listContainer{
+    
+   
+    flex:6;
+}**/
+/* List.css */
+
+/* Apply flex layout to the outer container */
+.AD-list {
+    display: flex;
+  }
+  
+  /* Adjust the width of the main content area */
+  .AD-listContainer {
+    
+    flex: 6;
+   /* Add padding for spacing */
+  }
+  
+  /* Style the table */
+  .AD-searchContainer {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .AD-searchContainer input {
+    width: 200px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .AD-searchIcon {
+    cursor: pointer;
+  }
+  
+  .AD-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .AD-table th,
+  .AD-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .AD-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .AD-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .AD-table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  .AD-addButtonContainer {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .AD-addButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+
+
+  /* Apply flex layout to the outer container */
+.AD-list.dark {
+  display: flex;
+  color: #fff; /* Text color */
+}
+
+/* Adjust the width of the main content area */
+.AD-list.dark .AD-listContainer{
+  flex: 6;
+  padding: 20px; /* Add padding for spacing */
+  background-color: #333; /* Dark background color */
+}
+
+/* Style the search container */
+.AD-list.dark .AD-searchContainer {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.AD-list.dark .AD-searchContainer input {
+  width: 200px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #666; /* Darker border color */
+  border-radius: 5px;
+  background-color: #444; /* Darker background color */
+  color: #fff; /* Text color */
+}
+
+.AD-list.dark .AD-searchIcon {
+  cursor: pointer;
+}
+
+/* Style the table */
+.AD-list.dark .AD-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.AD-list.dark .AD-table th,
+.AD-table td {
+  border: 1px solid #444; /* Darker border color */
+  padding: 8px;
+  text-align: left;
+}
+
+.AD-list.dark .AD-table th {
+  background-color: #555; /* Darker background color */
+}
+
+.AD-list.dark .AD-table tbody tr:nth-child(even) {
+  background-color: #555; /* Darker background color */
+}
+
+.AD-list.dark .AD-table tbody tr:hover {
+  background-color: #666; /* Slightly lighter background color on hover */
+}
+
+/* Style the add button container */
+.AD-list.dark .AD-addButtonContainer {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.AD-list.dark .AD-addButton {
+  padding: 10px 20px;
+  background-color: #007bff; /* Accent color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.AD-list.dark  .AD-link{
+
+  color:white; /* Change the link color to blue or any color you prefer */
+  text-decoration: none; /* Remove underline */
+}
+.AD-link {
+  color:black; /* Change the link color to blue or any color you prefer */
+  text-decoration: none; /* Remove underline */
+}

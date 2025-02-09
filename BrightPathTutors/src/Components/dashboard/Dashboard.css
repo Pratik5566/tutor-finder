@@ -1,0 +1,35 @@
+.Dashboard-Student {
+    display: flex;
+
+    @media (max-width:376px) {
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+.dashboard-button-group{
+    margin-left: 3%;
+    justify-content: start;
+    margin-top: 10px;
+
+}
+
+.Dashboard-background {
+    position: sticky;
+    top: 63px;
+    right: 0;
+    /* Align to the right */
+    bottom: 0;
+    /* Align to the bottom */
+    left: 0;
+    /* Align to the left */
+    background-color: #ffffff;
+    /* Dark background color for the page */
+    color: #474747;
+    /* Text color for better contrast */
+    font-family: Arial, sans-serif;
+    width: 100%;
+    min-width: 320px;
+    height: 100%;
+    overflow-y: auto;
+}

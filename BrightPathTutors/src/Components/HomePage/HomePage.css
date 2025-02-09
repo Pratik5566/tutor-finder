@@ -1,0 +1,28 @@
+.upperContainer1 {
+    background-color: lightgray;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 14%;
+}
+
+.upperContainer2 {
+    /* background-color:lightgray; */
+    height: 39vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.thirdContainer {
+    background-color: lightgray;
+    height: 95vh;
+    padding-top: 2%;
+}
+
+.Container6-upper {
+    background-color: rgb(236, 236, 236);
+    height: 30vh;
+}

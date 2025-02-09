@@ -1,0 +1,89 @@
+.container4-carousel-container {
+  position: relative;
+  width: 100%;
+  height: 40vh; 
+  margin: auto;
+}
+
+.container4-headline {
+  position: absolute;
+  bottom: 13%; 
+  left: 50%;
+  transform: translateX(-50%);
+  /* padding: 10px; */
+  background-color: rgba(255, 255, 255, 0.7);
+  font-size: 24px;
+  z-index: 10;
+}
+
+.container4-carousel {
+  position: relative;
+  width: 100%;
+  height: calc(40vh - 60px); 
+  overflow: hidden;
+}
+
+.container4-slide {
+  position: absolute;
+  width: 100%;
+  height: 15vh;
+  text-align: center;
+  padding-top: 5%;
+  transition: transform 0.5s ease;
+}
+
+.container4-active {
+  transform: translateX(0%);
+}
+
+.container4-left {
+  transform: translateX(-100%);
+}
+
+.container4-right {
+  transform: translateX(100%);
+}
+
+.container4-dots {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.container4-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #bbb;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.container4-dot.container4-active {
+  background-color: #717171;
+}
+
+.container4-prev,
+.container4-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 100;
+}
+
+.container4-prev {
+  left: 0;
+}
+
+.container4-next {
+  right: 0;
+}
+
+.container4-content{
+  font-size: 1.2rem;
+}

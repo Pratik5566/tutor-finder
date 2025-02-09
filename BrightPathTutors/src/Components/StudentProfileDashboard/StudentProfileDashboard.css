@@ -1,0 +1,173 @@
+.SPD-Top {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    /* Align to the right */
+    bottom: 0;
+    /* Align to the bottom */
+    left: 0;
+    /* Align to the left */
+    background-color: #1b1e23;
+    /* Dark background color for the page */
+    color: #fff;
+    /* Text color for better contrast */
+    font-family: Arial, sans-serif;
+    width: 100%;
+    min-width: 320px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.SPD-drawer {
+    width: 15vw;
+}
+
+.SPD-drawer-1 {
+    height: 30vh;
+    background-color: #1b1e23;
+    /* border: 2px solid #2b2e33; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SPD-drawer-2 {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    /* background-color: white; */
+    justify-content: space-evenly;
+}
+
+.SPD-drawer-2-button {
+    background-color: #1b1e23;
+    color:#cfd2d4;
+}
+.SPD-drawer-2-button:hover{
+    border: 2px solid #fff;
+    /* color:#cfd2d4 */
+    
+}
+
+.SPD-upperContainer {
+    height: 100vh;
+    width: 85vw;
+}
+
+.SPD-upperContainer-innerContainer-1 {
+    height: 20vh;
+    background-color: #1b1e23;
+    border: 2px solid #2b2e33;
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.SPD-upperContainer-innerContainer-2 {
+    height: 20vh;
+    /* cursor: pointer; */
+    background-color: #22262e;
+    border: 2px solid #2b2e33;
+
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
+.SPD-upperContainer-innerContainer-2-1 {
+    height: 60vh;
+    /* cursor: pointer; */
+    background-color: #1b1e23;
+    border: 2px solid #2b2e33;
+
+}
+
+.SPD-profilePicture {
+    /* left: 20%; */
+    height: 30vh;
+    width: 13vw;
+    background-color: aquamarine;
+    border-radius: 100%;
+    /* position: absolute; */
+    /* top: 21%; */
+    border: 5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 3%;
+}
+
+profile-img {
+    height: 30vh;
+    width: 30vh;
+    border-radius: 100%;
+
+}
+
+#file-input:hover {
+    cursor: pointer;
+}
+
+/* #card-id{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+} */
+.SPD-upperContainer-innerContainer-2-1-1 {
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+}
+
+.User-Details {
+    width: 70vw;
+    max-height: 45vh; /* Added max-height to limit height */
+    overflow-y: auto; /* Added overflow-y to enable vertical scrolling */
+    /* Hide the scrollbar */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+.User-Details::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+.User-Details-edit{
+    /* width: 10vw; */
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+    justify-content: space-evenly;
+    
+}
+
+
+.SPD-upperContainer-innerContainer-3 {
+    height: 60vh;
+    background-color: #1b1e23;
+    border: 2px solid #2b2e33;
+
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+.SPD-drawer-2-button2 {
+    background-color: #cfd2d4;
+    color:#1b1e23;
+}
+.SPD-drawer-2-button2:hover{
+    border: 2px solid #cfd2d4;
+    background-color: #1b1e23;
+    color: #cfd2d4;
+    /* color:#cfd2d4 */
+    
+}

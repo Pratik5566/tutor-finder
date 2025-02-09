@@ -1,0 +1,24 @@
+.Services{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Services-left{
+    width: 35vw;
+    margin-right: 2%;
+}
+.Services-left img{
+    width: 35vw;
+    border-radius: 15px;
+}
+.Services-right img{
+    width: 35vw;
+    border-radius: 15px;
+}
+.Services-right{
+    width: 35vw;
+    margin-left: 2%;
+}

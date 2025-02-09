@@ -1,0 +1,71 @@
+.tutor-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Adjust as needed */
+}
+
+.tutor-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    height: 60vh;
+    width: 30vw;
+    background-color: #22262e;
+    color: #cfd2d4;
+}
+
+.filters {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+
+.TF-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.TF-btn:hover {
+    background-color: #0056b3;
+}
+
+.filtered-tutors {
+    border: 2px solid #cfd2d4;
+    margin-left: 2%;
+    width: 30vw;
+    /* max-height: 60vh; */
+    height: 60vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #22262e;
+    color: #cfd2d4;
+
+}
+.inner-filtered-tutors{
+    max-height: 50vh;
+    overflow-y: auto;
+    width: 30vw;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    /* display: flex;
+    flex-direction: column; */
+}
+.inner-filtered-tutors::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+.tutorfind-Dashboard-Student{
+    display: flex;
+    justify-content: space-between;
+}

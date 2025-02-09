@@ -1,0 +1,18 @@
+.fade-up {
+  opacity: 0;
+  transform: translate3d(0, 20px, 0);
+   transition: 0.4s all ease-in-out;
+  }
+  
+  .fade-up.is-visible {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  /* .fade-up {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+  }
+  
+  .fade-up.is-visible {
+    opacity: 1;
+  } */

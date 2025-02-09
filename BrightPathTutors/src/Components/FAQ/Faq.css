@@ -1,0 +1,70 @@
+.faq-container0{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0% 5%;
+}
+.faq-container--1{
+    position: sticky;
+    top: 0;
+    right: 0;
+    /* Align to the right */
+    bottom: 0;
+    /* Align to the bottom */
+    left: 0;
+    /* Align to the left */
+    background-color: #F5F5F5;
+}
+
+.faq-container1{
+    text-align: center;
+}
+.faq-container2{
+    padding: 1% 0;
+    /* margin: 4%; */
+    margin: 2.5% 15%;
+    max-height: 32vh; /* Added max-height to limit height */
+    overflow-y: auto; /* Added overflow-y to enable vertical scrolling */
+    /* Hide the scrollbar */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+   
+
+    
+}
+.faq-container2::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+.faq-container3{
+    border: 1px solid rgb(142, 142, 142);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    margin: 5%;
+    padding: 0 1%;
+    background-color:#dbdbdb ;
+    color: black;
+}
+
+
+.accordion-root.MuiAccordion-root {
+    border: none; /* Remove the border from the accordion */
+    background-color: #F5F5F5;
+
+  }
+  
+  .accordion-summary {
+    color: #fff; /* Text color */
+  }
+  
+  .accordion-root.Mui-expanded {
+    background-color: #f0f0f0; /* Background color when accordion is expanded */
+  }
+  
+  
+  
+  
+

@@ -1,0 +1,21 @@
+.Container6-inner{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Container6-inner-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    width: 100%;
+}
+.Container6-buttons{
+    color:white;
+    background-color: black;
+}
+.Container6-buttons:hover{
+    color: black;
+    background-color: white;
+}

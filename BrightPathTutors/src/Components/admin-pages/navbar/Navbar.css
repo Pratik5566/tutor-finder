@@ -1,0 +1,75 @@
+
+/* Light mode styles */
+.navbar.light {
+  background-color: #ffffff;
+  color: #000000;
+  height: 52px;
+    border: 0.5px solid lightgray;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    
+}
+
+/* Dark mode styles */
+.navbar.dark {
+  background-color: #333333;
+  color: #ffffff;
+  height: 52px;
+    border: 0.5px solid lightgray;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    
+}
+.navbar.light .wrapper{
+    padding: 20px;
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+   
+    
+}
+.navbar.dark .wrapper{
+  padding: 20px;
+  width:100%;
+  display: flex;
+  justify-content: flex-end;
+ 
+  
+}
+
+
+
+.navbar .wrapper .items {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end; /* Align items to the end of the flexbox */
+  }
+  
+  .navbar .wrapper .items .item {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    margin-right: 20px;
+  }
+  
+  .navbar .wrapper .items .item .icon {
+    font-size: 20px;
+  }
+  
+  .navbar.dark .wrapper .items {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end; /* Align items to the end of the flexbox */
+  }
+  
+  .navbar.dark .wrapper .items .item {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    margin-right: 20px;
+  }
+  
+  .navbar.dark .wrapper .items .item .icon {
+    font-size: 20px;
+  }
+  

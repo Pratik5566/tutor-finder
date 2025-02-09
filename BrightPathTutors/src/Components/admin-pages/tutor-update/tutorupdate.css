@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 100vh; /* Set the height of the container to full viewport height */
+  }
+  
+  .section-form {
+    width: 300px; /* Set the width of the form */
+  }
+  
+  /* Additional styling for form elements */
+  .section-form form {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-form input[type="text"],
+  .section-form input[type="email"],
+  .section-form .TU-btn3[type="submit"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .section-form .TU-btn3[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .section-form .TU-btn3[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  .list {
+    display: flex;
+  }
+  
+  /* Adjust the width of the main content area */
+  .listContainer {
+    flex: 6;
+   /* Add padding for spacing */
+  }
+  .list.dark label{
+    color: cadetblue;
+  }
